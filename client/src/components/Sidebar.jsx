@@ -113,7 +113,7 @@ const Sidebar = ({
           anchor="left"
           sx={{
             width: drawerWidth,
-            "&.MuiDrawer-paper": {
+            "& .MuiDrawer-paper": {
               color: theme.palette.secondary[200],
               backgroundColor: theme.palette.background.alt,
               boxSizing: "border-box",
@@ -163,7 +163,7 @@ const Sidebar = ({
                         color:
                           active === lcText
                             ? theme.palette.primary[600]
-                            : theme.palette.secondary[200],
+                            : theme.palette.secondary[100],
                       }}
                     >
                       <ListItemIcon
@@ -185,7 +185,6 @@ const Sidebar = ({
                   </ListItem>
                 );
               })}
-              ;
             </List>
           </Box>
         </Drawer>
