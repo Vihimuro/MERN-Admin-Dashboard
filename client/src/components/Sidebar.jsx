@@ -65,7 +65,28 @@ const navItems = [
   {
     text: "Overview",
     icon: <PointOfSaleOutlined />
-  }
+  },
+  {
+    text: "Daily",
+    icon: <TodayOutlined />
+  },
+  {
+    text: "Monthly",
+    icon: <CalendarMonthOutlined />
+  },
+  {
+    text: "Breakdown",
+    icon: <PieChartOutlined />
+  },
+  {
+    text: "Management",
+    icon: null
+  },
+  {
+    text: "Performance",
+    icon: <TrendingUpOutlined />
+  },
+
 
 ]
 
